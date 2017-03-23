@@ -1,0 +1,36 @@
+{
+  "name": "mybank",
+  "version": "1.0.0",
+  "description": "A sample banking application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bdgf10/MyBank.git"
+  },
+  "keywords": [
+    "mybank",
+    "bank",
+    "alexa",
+    "echo",
+    "benjamingoos",
+    "goos"
+  ],
+  "author": "Benjamin Goos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bdgf10/MyBank/issues"
+  },
+  "homepage": "https://github.com/bdgf10/MyBank#readme",
+  "dependencies": {
+    "alexa-sdk": "^1.0.7",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "aws-lambda-mock-context": "^3.0.1",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
